@@ -1,5 +1,13 @@
-﻿namespace Music4All.API.Controllers;
+﻿using System.Net.Mime;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
+namespace Music4All.API.Controllers;
+
+//[Authorize]
+[Route("api/v1/[controller]")]
+[ApiController]
+[Produces(MediaTypeNames.Application.Json)]
 public class MusiciansController
 {
     

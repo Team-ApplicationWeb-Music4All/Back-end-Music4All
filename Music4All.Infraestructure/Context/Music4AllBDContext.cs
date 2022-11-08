@@ -17,8 +17,8 @@ public class Music4AllBDContext : DbContext //Base de datos
     
     public DbSet<Music> Musics { get; set; }
     public DbSet<Event> Events { get; set; }
-    public DbSet<Contractor> Contractors { get; set; }
-    public DbSet<Musician> Musicians { get; set; }
+    //public DbSet<Contractor> Contractors { get; set; }
+    //public DbSet<Musician> Musicians { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
