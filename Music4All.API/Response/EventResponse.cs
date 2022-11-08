@@ -1,6 +1,8 @@
-﻿namespace Music4All.API.Response;
+﻿using Music4All.Infraestructure.Models;
 
-public class EventResponse
+namespace Music4All.API.Response;
+
+public class EventResponse : BaseResponse<Event>
 {
     
 }
