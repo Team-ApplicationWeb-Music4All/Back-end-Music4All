@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Shared\\Music4All.Shared.csproj": {}
+    "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Shared\\Music4All.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
+    "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
         "projectName": "Music4All.Infraestructure",
-        "projectPath": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,24 +60,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Shared\\Music4All.Shared.csproj": {
+    "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Shared\\Music4All.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Shared\\Music4All.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Shared\\Music4All.Shared.csproj",
         "projectName": "Music4All.Shared",
-        "projectPath": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Shared\\Music4All.Shared.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Shared\\obj\\",
+        "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Shared\\Music4All.Shared.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
-                "projectPath": "D:\\Jetbrains-p\\Rider\\Music4Allv2\\Music4All.API\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
+              "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
