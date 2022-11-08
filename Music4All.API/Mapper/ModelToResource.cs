@@ -1,6 +1,15 @@
-﻿namespace Music4All.API.Mapper;
+﻿using AutoMapper;
+using Music4All.API.Resources;
+using Music4All.Infraestructure.Models;
 
-public class ModelToResource
+namespace Music4All.API.Mapper;
+
+public class ModelToResource : Profile
 {
-    
+    public ModelToResource()
+    {
+        CreateMap<Event, EventsResource>();
+        CreateMap<Music, MusicResource>();
+
+    }
 }
