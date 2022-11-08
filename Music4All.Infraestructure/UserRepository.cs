@@ -1,6 +1,6 @@
 ﻿namespace Music4All.Infraestructure;
 
-public class UserRepository
+public class UserRepositoryNetCo
 {
     
 }
