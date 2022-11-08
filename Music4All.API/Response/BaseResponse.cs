@@ -1,6 +1,8 @@
 ﻿namespace Music4All.API.Response;
 
-public class BaseResponse
+public abstract class BaseResponse<T>
 {
-    
+    public bool Success { get; set; }
+    public string Message { get; set; }
+    public T Body { get; set; }
 }
