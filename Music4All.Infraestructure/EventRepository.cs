@@ -16,12 +16,6 @@ public class EventRepository : IEventRepository
     {
        // new Music().Musician.Name
        return await _music4AllBdContext.Events
-           .Select(evento => new Event
-           {
-               Id=evento.Id,
-               Title = evento.Title,
-               Description = evento.Description,
-           })
            .ToListAsync();
        
     }
