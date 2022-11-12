@@ -35,8 +35,8 @@ public class EventDomain : IEventDomain
         evento.Id = evento.Id;
         evento.Title = evento.Title.ReplaceBlankByUndercores();
         evento.Description = evento.Description.ReplaceBlankByUndercores();
-        evento.Title = evento.ContractorId.ToString();
-        evento.Contractor = evento.Contractor;
+     //   evento.Title = evento.ContractorId.ToString();
+      //  evento.Contractor = evento.Contractor;
         return await _eventRepository.create(evento);
     }
 

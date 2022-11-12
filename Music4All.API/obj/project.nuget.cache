@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zoIjspfDnenHNzur39vNKc/4Ugfl3ivWDKqPrv0KJJ6KIy9ITwerh/vuzE8YNbJ0Pp9p4pEgGPVgY2FhjHvWAQ==",
+  "dgSpecHash": "UvC4vJcaT6IhwWN4lMX5sVRdF4uzI7iUcy0U9I+rvt1RCo350dlwJIWeST0pNrc8zAPHj5VauIDZM7t6JyAMmQ==",
   "success": true,
-  "projectFilePath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.API\\Music4All.API.csproj",
+  "projectFilePath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.API\\Music4All.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

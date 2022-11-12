@@ -58,8 +58,7 @@ public class MusicRepository : IMusicRepository
 
                 existingMusic.Title = music.Title;
                 existingMusic.Description = music.Description;
-                existingMusic.DateUpdated = DateTime.Now;
-
+                existingMusic.DateCreated = new DateTime();
                 _music4AllBdContext.Musics.Update(existingMusic);
                 await _music4AllBdContext.SaveChangesAsync();
             }

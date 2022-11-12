@@ -60,7 +60,7 @@ public class EventRepository : IEventRepository
 
                 existingEvent.Title = evento.Title;
                 existingEvent.Description = evento.Description;
-                existingEvent.DateUpdated = DateTime.Now;
+                existingEvent.DateCreated = DateTime.Now;
 
                 _music4AllBdContext.Events.Update(existingEvent);
                 await _music4AllBdContext.SaveChangesAsync();

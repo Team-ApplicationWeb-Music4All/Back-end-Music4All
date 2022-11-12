@@ -5830,11 +5830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Domain\\Music4All.Domain.csproj",
+      "projectUniqueName": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Domain\\Music4All.Domain.csproj",
       "projectName": "Music4All.Domain",
-      "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Domain\\Music4All.Domain.csproj",
+      "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Domain\\Music4All.Domain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Domain\\obj\\",
+      "outputPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5856,11 +5856,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
-              "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
+            "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
+              "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
             },
-            "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Shared\\Music4All.Shared.csproj": {
-              "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv4\\Music4All.Shared\\Music4All.Shared.csproj"
+            "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Shared\\Music4All.Shared.csproj": {
+              "projectPath": "D:\\Jetbrains-p\\Rider\\Back-end-Music4Allv5\\Music4All.Shared\\Music4All.Shared.csproj"
             }
           }
         }

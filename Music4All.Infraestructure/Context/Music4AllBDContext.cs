@@ -42,7 +42,7 @@ public class Music4AllBDContext : DbContext //Base de datos
        builder.Entity<Event>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
        builder.Entity<Event>().Property(c => c.Title).IsRequired().HasMaxLength(50);
        builder.Entity<Event>().Property(c => c.Description).IsRequired().HasMaxLength(150);
-       builder.Entity<Event>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
+      // builder.Entity<Event>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
        
        builder.Entity<Music>().ToTable("Musics");
        builder.Entity<Music>().HasKey(p => p.Id);
