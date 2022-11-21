@@ -60,6 +60,7 @@ public class EventRepository : IEventRepository
 
                 existingEvent.Title = evento.Title;
                 existingEvent.Description = evento.Description;
+                existingEvent.url = evento.url;
                 existingEvent.DateCreated = DateTime.Now;
 
                 _music4AllBdContext.Events.Update(existingEvent);

@@ -4,7 +4,7 @@ namespace Music4All.API.Resources;
 
 public class EventsResource
 {
-    public int Id { get; set; }
+ //   public int Id { get; set; }
     [Required]
     [MaxLength(50)]
     public string Title { get; set; }
@@ -12,6 +12,8 @@ public class EventsResource
     [Required]
     [MaxLength(150)]
     public string Description { get; set; }
+    
+    public string url { get; set; }
     
     public DateTime DateCreated { get; set; }
     
