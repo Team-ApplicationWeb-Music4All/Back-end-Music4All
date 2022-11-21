@@ -26,11 +26,11 @@ public class MusicsController : ControllerBase
     [ProducesResponseType(typeof(IEnumerable<string>), 200)]
     //GET api/Musics/byName?name
   //  [HttpGet("byName")]
-    public async Task<IActionResult> Get(string name)
+    public async Task<IActionResult> Get()
     {
         try
         {
-            var result = await _musicDomain.getAll(name);
+            var result = await _musicDomain.getAll();
             return Ok(_mapper.Map<List<Music>, List<MusicResource>>(result));
         }
         catch (Exception exception)

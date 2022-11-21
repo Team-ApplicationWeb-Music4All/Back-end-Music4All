@@ -1,0 +1,15 @@
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\bin\Debug\net6.0\Music4All.Shared.deps.json
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\bin\Debug\net6.0\Music4All.Shared.dll
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\bin\Debug\net6.0\Music4All.Shared.pdb
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\bin\Debug\net6.0\Music4All.Infraestructure.dll
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\bin\Debug\net6.0\Music4All.Infraestructure.pdb
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.csproj.AssemblyReference.cache
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.AssemblyInfoInputs.cache
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.AssemblyInfo.cs
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.csproj.CoreCompileInputs.cache
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.csproj.CopyComplete
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.dll
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\refint\Music4All.Shared.dll
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\Music4All.Shared.pdb
+D:\Jetbrains-p\Rider\Aplicaciones-Web-SI730-2202-WS52-Back-End-18\Back-end-Music4All-grupo\Music4All.Shared\obj\Debug\net6.0\ref\Music4All.Shared.dll

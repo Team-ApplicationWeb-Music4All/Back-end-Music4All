@@ -11,9 +11,9 @@ public class MusicDomain : IMusicDomain
     {
         _musicRepository = musicRepository;
     }
-    public async Task<List<Music>> getAll(string name)
+    public async Task<List<Music>> getAll()
     {
-        return await _musicRepository.getAll(name);
+        return await _musicRepository.getAll();
     }
 
     public async Task<Music> getMusicById(int id)

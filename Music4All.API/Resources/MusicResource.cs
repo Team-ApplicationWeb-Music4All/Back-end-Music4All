@@ -11,4 +11,8 @@ public class MusicResource
     [Required]
     [MaxLength(150)]
     public string Description { get; set; }
+    
+    public string url { get; set; }
+    
+    public DateTime DateCreated { get; set; }
 }

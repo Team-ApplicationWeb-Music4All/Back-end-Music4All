@@ -12,7 +12,8 @@ public class MusicRepository : IMusicRepository
     {
         _music4AllBdContext = music4AllDbContext;
     }
-    public async Task<List<Music>> getAll(string name)
+
+    public async Task<List<Music>> getAll()
     {
         return await _music4AllBdContext.Musics
             .ToListAsync();
@@ -58,6 +59,7 @@ public class MusicRepository : IMusicRepository
 
                 existingMusic.Title = music.Title;
                 existingMusic.Description = music.Description;
+                existingMusic.url = music.url;
                 existingMusic.DateCreated = new DateTime();
                 _music4AllBdContext.Musics.Update(existingMusic);
                 await _music4AllBdContext.SaveChangesAsync();

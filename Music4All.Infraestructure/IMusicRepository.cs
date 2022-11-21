@@ -4,7 +4,7 @@ namespace Music4All.Infraestructure;
 
 public interface IMusicRepository
 {
-    Task<List<Music>> getAll(string name);
+    Task<List<Music>> getAll();
 
     Task<Music> getMusicById(int id);
     Task<bool> create(Music music);
