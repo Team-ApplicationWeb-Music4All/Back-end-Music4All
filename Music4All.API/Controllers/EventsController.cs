@@ -1,7 +1,6 @@
 ﻿using System.Net.Mime;
 using System.Security;
 using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Music4All.API.Resources;
 using Music4All.Domain;
@@ -24,11 +23,10 @@ public class EventsController : ControllerBase
         _mapper = mapper;
     }
 
-       // GET: api/Events
+    // GET: api/Events
     [HttpGet]
     [ProducesResponseType(typeof(IEnumerable<string>), 200)]
-    //GET api/Events/byName?name
-//    [HttpGet("byName")]
+
     public async Task<IActionResult> Get()
     {
         try
@@ -62,7 +60,6 @@ public class EventsController : ControllerBase
             return StatusCode(StatusCodes.Status500InternalServerError, "Error al procesar");
         }
     }
-
     
     // POST: api/Categories
     [HttpPost]
@@ -92,17 +89,9 @@ public class EventsController : ControllerBase
         {
             return StatusCode(StatusCodes.Status400BadRequest, "Error interno al castear");
         }
-        catch (VerificationException verificationException)
-        {
-            return StatusCode(StatusCodes.Status400BadRequest, verificationException.Message);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(StatusCodes.Status500InternalServerError, "Error al procesar , intente mas tarde");
-        }
     }
 
-    // PUT: api/Categories/5
+    // PUT: api/Events/5
     [HttpPut("{id}")]
     public async Task<IActionResult> Put(int id, [FromBody] Event evento)
     {
