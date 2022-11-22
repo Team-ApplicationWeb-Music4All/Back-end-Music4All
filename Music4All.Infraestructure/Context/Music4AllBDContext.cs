@@ -17,8 +17,8 @@ public class Music4AllBDContext : DbContext //Base de datos
     
     public DbSet<Music> Musics { get; set; }
     public DbSet<Event> Events { get; set; }
-    //public DbSet<Contractor> Contractors { get; set; }
-    //public DbSet<Musician> Musicians { get; set; }
+    public DbSet<Contractor> Contractors { get; set; }
+    public DbSet<Musician> Musicians { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -42,25 +42,31 @@ public class Music4AllBDContext : DbContext //Base de datos
        builder.Entity<Event>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
        builder.Entity<Event>().Property(c => c.Title).IsRequired().HasMaxLength(50);
        builder.Entity<Event>().Property(c => c.Description).IsRequired().HasMaxLength(150);
-  //     builder.Entity<Music>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
+       builder.Entity<Music>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
        builder.Entity<Event>().Property(c => c.url).IsRequired();
-      // builder.Entity<Event>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
+       builder.Entity<Event>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
        
        builder.Entity<Music>().ToTable("Musics");
        builder.Entity<Music>().HasKey(p => p.Id);
        builder.Entity<Music>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
        builder.Entity<Music>().Property(c => c.Title).IsRequired().HasMaxLength(50);
        builder.Entity<Music>().Property(c => c.Description).IsRequired().HasMaxLength(150);
-   //    builder.Entity<Music>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
+       builder.Entity<Music>().Property(c => c.DateCreated).IsRequired().HasDefaultValue(DateTime.Now);
        builder.Entity<Event>().Property(c => c.url).IsRequired();
        
        builder.Entity<Contractor>().ToTable("Contractors");
        builder.Entity<Contractor>().HasKey(p => p.Id);
-      // builder.Entity<Contractor>().Property(c => c.IsActive).IsRequired().HasDefaultValue(true);
+       builder.Entity<Contractor>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+       builder.Entity<Contractor>().Property(c => c.Name).IsRequired().HasMaxLength(50);
+       builder.Entity<Contractor>().Property(c => c.Description).IsRequired().HasMaxLength(150);
+       builder.Entity<Contractor>().Property(c => c.Age).IsRequired().HasMaxLength(150);
        
        builder.Entity<Musician>().ToTable("Musicians");
        builder.Entity<Musician>().HasKey(p => p.Id);
-      // builder.Entity<Musician>().Property(c => c.IsActive).IsRequired().HasDefaultValue(true);
+       builder.Entity<Musician>().Property(c => c.Name).IsRequired().HasMaxLength(50);
+       builder.Entity<Musician>().Property(c => c.Description).IsRequired().HasMaxLength(150);
+       builder.Entity<Musician>().Property(c => c.Age).IsRequired().HasMaxLength(150);
+       
     }
 
     
