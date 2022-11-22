@@ -63,6 +63,8 @@ public class MusicRepository : IMusicRepository
                 existingMusic.DateCreated = new DateTime();
                 _music4AllBdContext.Musics.Update(existingMusic);
                 await _music4AllBdContext.SaveChangesAsync();
+                await _music4AllBdContext.Database.CommitTransactionAsync();
+
             }
             catch (Exception ex)
             {

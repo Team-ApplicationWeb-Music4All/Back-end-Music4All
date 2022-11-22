@@ -59,14 +59,17 @@ public class Music4AllBDContext : DbContext //Base de datos
        builder.Entity<Contractor>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
        builder.Entity<Contractor>().Property(c => c.Name).IsRequired().HasMaxLength(50);
        builder.Entity<Contractor>().Property(c => c.Description).IsRequired().HasMaxLength(150);
-       builder.Entity<Contractor>().Property(c => c.Age).IsRequired().HasMaxLength(150);
+       builder.Entity<Contractor>().Property(c => c.Age).IsRequired();
+       builder.Entity<Contractor>().Property(c => c.Correo).IsRequired();
        
        builder.Entity<Musician>().ToTable("Musicians");
        builder.Entity<Musician>().HasKey(p => p.Id);
+       builder.Entity<Contractor>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
        builder.Entity<Musician>().Property(c => c.Name).IsRequired().HasMaxLength(50);
        builder.Entity<Musician>().Property(c => c.Description).IsRequired().HasMaxLength(150);
-       builder.Entity<Musician>().Property(c => c.Age).IsRequired().HasMaxLength(150);
-       
+       builder.Entity<Musician>().Property(c => c.Age).IsRequired();
+       builder.Entity<Musician>().Property(c => c.Correo).IsRequired();
+
     }
 
     

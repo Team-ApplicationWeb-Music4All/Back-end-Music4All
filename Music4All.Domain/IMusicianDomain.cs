@@ -5,8 +5,8 @@ namespace Music4All.Domain;
 public interface IMusicianDomain
 {
     Task<List<Musician>> getAll();
-    Task<Musician> getEventById(int id);
-    Task<bool> createEvent(Musician musician);
-    Task<bool> updateEvent(int id, Musician musician);
-    Task<bool> deleteEvent(int id);
+    Task<Musician> getMusicianById(int id);
+    Task<bool> createMusician(Musician musician);
+    Task<bool> updateMusician(int id, Musician musician);
+    Task<bool> deleteMusician(int id);
 }

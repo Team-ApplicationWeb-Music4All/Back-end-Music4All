@@ -8,7 +8,7 @@ public class Music : BaseModel
     
     public string url { get; set; }
     
-  // public int? MusicianId { get; set; }
-    //info a parte del id
-   // public Musician? Musician { get; set; }
+   public int? MusicianId { get; set; }
+
+    public Musician? Musician { get; set; }
 }

@@ -19,6 +19,10 @@ builder.Services.AddScoped<IEventDomain, EventDomain>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IMusicDomain, MusicDomain>();
 builder.Services.AddScoped<IMusicRepository, MusicRepository>();
+builder.Services.AddScoped<IMusicianDomain, MusicianDomain>();
+builder.Services.AddScoped<IMusicianRepository, MusicianRepository>();
+builder.Services.AddScoped<IContractorDomain, ContractorDomain>();
+builder.Services.AddScoped<IContractorRepository, ContractorRepository>();
 
 //Conexion a MySQL 
 var connectionString = builder.Configuration.GetConnectionString("music4allConnection");

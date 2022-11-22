@@ -6,7 +6,7 @@ public interface IMusicianRepository
 {
     Task<List<Musician>> getAll();
 
-    Task<Musician> getEventById(int id);
+    Task<Musician> getMusicianById(int id);
     Task<bool> create(Musician musician);
     Task<bool> Update(int id, Musician musician);
 

@@ -10,5 +10,7 @@ public class ResourceToModel : Profile
     {
         CreateMap<EventsResource, Event>();
         CreateMap<MusicResource, Music>();
+        CreateMap<ContractorResource, Contractor>();
+        CreateMap<MusicianResource, Musician>();
     }
 }

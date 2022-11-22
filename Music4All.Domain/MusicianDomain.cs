@@ -6,7 +6,6 @@ namespace Music4All.Domain;
 public class MusicianDomain : IMusicianDomain
 {
     private readonly IMusicianRepository _musicianRepository;
-    private IMusicianDomain _musicianDomainImplementation;
 
     public MusicianDomain(IMusicianRepository musicianRepository)
     {
@@ -18,12 +17,12 @@ public class MusicianDomain : IMusicianDomain
         return await _musicianRepository.getAll();
     }
 
-    public async Task<Musician> getEventById(int id)
+    public async Task<Musician> getMusicianById(int id)
     {
-        return await _musicianRepository.getEventById(id);
+        return await _musicianRepository.getMusicianById(id);
     }
 
-    public async Task<bool> createEvent(Musician musician)
+    public async Task<bool> createMusician(Musician musician)
     {
         
         musician.Id = musician.Id;
@@ -33,12 +32,12 @@ public class MusicianDomain : IMusicianDomain
         return await _musicianRepository.create(musician);
     }
 
-    public async Task<bool> updateEvent(int id, Musician musician)
+    public async Task<bool> updateMusician(int id, Musician musician)
     {
         return await _musicianRepository.Update(id, musician);
     }
 
-    public async Task<bool> deleteEvent(int id)
+    public async Task<bool> deleteMusician(int id)
     {
         return await _musicianRepository.Delete(id);
     }

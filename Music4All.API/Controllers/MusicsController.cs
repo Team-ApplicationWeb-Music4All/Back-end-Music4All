@@ -78,7 +78,7 @@ public class MusicsController : ControllerBase
 
             var result = await _musicDomain.createMusic(music);
 
-            return StatusCode(StatusCodes.Status201Created, "event created");
+            return StatusCode(StatusCodes.Status201Created, "Music created");
         }
         catch (ArgumentException argumentException)
         {

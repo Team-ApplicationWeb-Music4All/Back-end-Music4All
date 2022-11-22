@@ -20,7 +20,7 @@ public class MusicianRepository :IMusicianRepository
             .ToListAsync();
     }
 
-    public async Task<Musician> getEventById(int id)
+    public async Task<Musician> getMusicianById(int id)
     {
         return await _music4AllBdContext.Musicians
             .SingleOrDefaultAsync(musician => musician.Id == id);
@@ -59,12 +59,14 @@ public class MusicianRepository :IMusicianRepository
 
                 existingMusician.Name = musician.Name;
                 existingMusician.Age = musician.Age;
+                existingMusician.Correo = musician.Correo;
                 existingMusician.Description = musician.Description;
-                existingMusician.Musics = musician.Musics;
                 existingMusician.DateCreated = DateTime.Now;
 
                 _music4AllBdContext.Musicians.Update(existingMusician);
                 await _music4AllBdContext.SaveChangesAsync();
+                await _music4AllBdContext.Database.CommitTransactionAsync();
+                
             }
             catch (Exception ex)
             {

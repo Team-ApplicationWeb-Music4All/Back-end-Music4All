@@ -10,7 +10,7 @@ public class MusicianResource
     
     [Required]
     [MaxLength(50)]
-    public string Surname { get; set; }
+    public string Correo { get; set; }
 
     [Required]
     [Range(18, 80, ErrorMessage = "Valor fuera del rango requerido")]
