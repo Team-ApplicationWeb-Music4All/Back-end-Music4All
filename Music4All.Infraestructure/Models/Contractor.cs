@@ -6,5 +6,8 @@ public class Contractor : BaseModel
     public string Name { get; set; }
     public string Age { get; set; }
     public string Description {get; set; }
-    public List<Event>? Events { get; set; }
+    
+    public string Correo { get; set; }
+
+   // public List<Event>? Events { get; set; }
 }

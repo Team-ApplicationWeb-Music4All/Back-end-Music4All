@@ -14,13 +14,12 @@ public class ContractorRepository :IContractorRepository
     }
     public async Task<List<Contractor>> getAll()
     {
-       // new Music().Musician.Name
-       return await _music4AllBdContext.Contractors
+        return await _music4AllBdContext.Contractors
            .ToListAsync();
        
     }
 
-    public async Task<Contractor> getEventById(int id)
+    public async Task<Contractor> getContractorById(int id)
     {
         return await _music4AllBdContext.Contractors
             .SingleOrDefaultAsync(contractor => contractor.Id == id);
@@ -60,12 +59,13 @@ public class ContractorRepository :IContractorRepository
 
                 existingContractor.Name = contractor.Name;
                 existingContractor.Age = contractor.Age;
+                existingContractor.Correo = contractor.Correo;
                 existingContractor.Description = contractor.Description;
-                existingContractor.Events = contractor.Events;
                 existingContractor.DateCreated = DateTime.Now;
 
                 _music4AllBdContext.Contractors.Update(existingContractor);
                 await _music4AllBdContext.SaveChangesAsync();
+                await _music4AllBdContext.Database.CommitTransactionAsync();
             }
             catch (Exception ex)
             {

@@ -6,7 +6,7 @@ public interface IContractorRepository
 {
     Task<List<Contractor>> getAll();
 
-    Task<Contractor> getEventById(int id);
+    Task<Contractor> getContractorById(int id);
     Task<bool> create(Contractor contractor);
     Task<bool> Update(int id, Contractor contractor);
 

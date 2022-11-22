@@ -65,6 +65,7 @@ public class EventRepository : IEventRepository
 
                 _music4AllBdContext.Events.Update(existingEvent);
                 await _music4AllBdContext.SaveChangesAsync();
+                await _music4AllBdContext.Database.CommitTransactionAsync();
             }
             catch (Exception ex)
             {

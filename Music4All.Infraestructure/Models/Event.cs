@@ -8,7 +8,7 @@ public class Event : BaseModel
     
     public string url { get; set; }
 
-  //  public int? ContractorId { get; set; }
-    //info a parte del id
-    //public Contractor? Contractor { get; set; }
+   public int? ContractorId { get; set; }
+   
+   public Contractor? Contractor { get; set; }
 }

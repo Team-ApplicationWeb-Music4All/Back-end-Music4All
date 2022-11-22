@@ -27,16 +27,9 @@ public class EventDomain : IEventDomain
     public async Task<bool> createEvent(Event evento)
     {
 
-        if (evento.Description == evento.Title)
-        {
-            throw new ArgumentException("Description and Name are equeals");
-        }
-
         evento.Id = evento.Id;
         evento.Title = evento.Title.ReplaceBlankByUndercores();
         evento.Description = evento.Description.ReplaceBlankByUndercores();
-     //   evento.Title = evento.ContractorId.ToString();
-      //  evento.Contractor = evento.Contractor;
         return await _eventRepository.create(evento);
     }
 

@@ -17,14 +17,14 @@ public class ContractorDomain: IContractorDomain
         return await _contractorRepository.getAll();
     }
 
-    public async Task<Contractor> getEventById(int id)
+    public async Task<Contractor> getContractorById(int id)
     {
-        return await _contractorRepository.getEventById(id);
+        return await _contractorRepository.getContractorById(id);
     }
 
-    public async Task<bool> createEvent(Contractor contractor)
+    public async Task<bool> createContractor(Contractor contractor)
     {
-        
+
         contractor.Id = contractor.Id;
         contractor.Name = contractor.Name;
         contractor.Description = contractor.Description;
@@ -32,12 +32,12 @@ public class ContractorDomain: IContractorDomain
         return await _contractorRepository.create(contractor);
     }
 
-    public async Task<bool> updateEvent(int id, Contractor contractor)
+    public async Task<bool> updateContractor(int id, Contractor contractor)
     {
         return await _contractorRepository.Update(id, contractor);
     }
 
-    public async Task<bool> deleteEvent(int id)
+    public async Task<bool> deleteContractor(int id)
     {
         return await _contractorRepository.Delete(id);
     }
