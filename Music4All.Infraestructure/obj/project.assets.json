@@ -5468,19 +5468,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Diego\\.nuget\\packages\\": {}
+    "C:\\Users\\leona\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
       "projectName": "Music4All.Infraestructure",
-      "projectPath": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All\\Music4All.Infraestructure\\obj\\",
+      "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5488,6 +5493,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
