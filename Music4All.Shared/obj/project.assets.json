@@ -5421,24 +5421,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leona\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Shared\\Music4All.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All20\\Music4All.Shared\\Music4All.Shared.csproj",
       "projectName": "Music4All.Shared",
-      "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Shared\\Music4All.Shared.csproj",
-      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Shared\\obj\\",
+      "projectPath": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All20\\Music4All.Shared\\Music4All.Shared.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All20\\Music4All.Shared\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5446,15 +5441,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\leona\\Desktop\\Aplicaciones web\\Back-end-Music4Allv1\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
+            "C:\\Users\\Diego\\Desktop\\Back-end-Music4All20\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Diego\\Desktop\\Back-end-Music4All20\\Music4All.Infraestructure\\Music4All.Infraestructure.csproj"
             }
           }
         }
